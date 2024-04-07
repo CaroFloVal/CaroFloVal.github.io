@@ -22,8 +22,12 @@ h1 {
     font-size: 2.5rem;
 }
 
+.seccion-verde{
+    color:#052441;
+    background-color:#04f5a6;
+}
 .seccion-oscura{
-    color: white;
+    color: #04f5a6;
     background-color: #1b1b32;
     
 }
@@ -31,14 +35,23 @@ h1 {
     color: black;
     background-color: white;
 }
+.seccion-azul{
+    color: #04f5a6;
+    background-color: #052441;
+}
+.seccion-azulclaro{
+    color: #04f5a6;
+    background-color: #024b76;
+}
 .seccion-titulo{
-   font-size: 2rem;
-   padding: 15px 0;
-   font-family: 'Rubik Dirt', cursive; 
+    color: #04f5a6;
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive; 
 }
 .seccion-descripcion {
     font-size: 1.2rem;
-    color:#584e4e;
+    color:white;
 }
 
 .seccion-texto {
@@ -55,11 +68,14 @@ h1 {
 .texto-blanco{
     color: white;
 }
+.texto-verde{
+    color: #04f5a6;
+}
 
 /*Seccion Hero */
 
 .hero { 
-    background-color: #f5f6f7;
+    background-color:#024b76;
     min-height: 450px;
     text-align: center;
 
@@ -78,7 +94,6 @@ h1 {
 
 .hero-principal h2 {
     font-size: 1.5rem;
-    color: #615151
 }
 h1 {
     font-size: 2.5rem;
@@ -124,6 +139,7 @@ h1 {
     font-size: 20px;
     font-weight: bold;
     margin: 10px 0;
+    color: #1b1b32;
 }
 .badge {
     margin: 5px;
