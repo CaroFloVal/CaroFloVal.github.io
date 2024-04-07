@@ -27,6 +27,10 @@ h1 {
     background-color: #1b1b32;
     
 }
+.seccion-clara{
+    color: black;
+    background-color: white;
+}
 .seccion-titulo{
    font-size: 2rem;
    padding: 15px 0;
@@ -35,7 +39,7 @@ h1 {
 
 .seccion-texto {
     font-size: 1.2rem;
-    
+
 }
 /*Seccion Hero */
 
@@ -77,6 +81,11 @@ h1 {
     text-align: center;
 }
 
+/*Experiencia*/
+.experiencia { 
+    padding: 40px;
+
+}
 /*adaptable (responsivo)*/
 
 @media screen and (max-width: 767px) {
