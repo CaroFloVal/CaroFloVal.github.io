@@ -154,7 +154,7 @@ h1 {
 
 /*Proyectos*/
 .proyectos-recientes {
-    padding: 40px;
+    padding: 80px;
 }
 .proyectos-recientes img{
     height: 100%;
@@ -170,6 +170,9 @@ h1 {
     margin-bottom: 40px;  
 }
 
+.btn-azul {
+    background-color: #024b76;
+}
 
 
 .overlay {
@@ -232,7 +235,7 @@ h1 {
     transition: all 0.2s ease-in-out ;
 }
 .contacto button:hover{
-    background-color: aquamarine;
+    background-color: #024b76;
     color:black
 }
 .contacto button i {
@@ -242,7 +245,7 @@ h1 {
     color: black;
 }
 .contacto i {
-    color: aquamarine;
+    color: #04f5a6;
     font-size: 1.3rem;
 }
 
