@@ -36,11 +36,22 @@ h1 {
    padding: 15px 0;
    font-family: 'Rubik Dirt', cursive; 
 }
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color:#584e4e;
+}
 
 .seccion-texto {
     font-size: 1.2rem;
 
 }
+.texto-negro {
+    color: black;
+}
+.texto-blanco{
+    color: white;
+}
+
 /*Seccion Hero */
 
 .hero { 
@@ -94,6 +105,11 @@ h1 {
  flex-direction: column;
  align-items: center;
  justify-content: space-evenly;
+ transition: all 0.2s ease-in;
+}
+.experiencia .columna:hover {
+    color:aquamarine;
+    background-color:#1b1b32;
 }
 .experiencia-titulo {
     font-size: 25px;
@@ -115,6 +131,12 @@ h1 {
     padding:8px 19px;
     border-radius: 50%;
 }
+
+/*Proyectos*/
+.proyecyos-recientes{
+    padding: 40px;
+}
+
 /*adaptable (responsivo)*/
 
 @media screen and (max-width: 767px) {
