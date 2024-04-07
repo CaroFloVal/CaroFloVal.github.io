@@ -181,6 +181,55 @@ h1 {
     opacity: 1;
 
 }
+
+/*contacto*/
+.contacto .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.rectangulo{
+    margin-top: -5rem;
+    background-color: #584e4e;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px aquamarine;
+}
+
+.contacto .row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.contacto .descripcion {
+    color:#f5f6f7
+    font-size: 1.2rem;
+}
+.contacto button {
+    color: aquamarine;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px ;
+    transition: all 0.2s ease-in-out ;
+}
+.contacto button:hover{
+    background-color: aquamarine;
+    color:black
+}
+.contacto button i {
+    transition: all 0.2s ease-in-out;
+}
+.contacto buttom:hover i{
+    color: black;
+}
+.contacto i {
+    color: aquamarine;
+    font-size: 1.3rem;
+}
+
 /*adaptable (responsivo)*/
 @media screen and (max-width: 400px){
     .overlay p {
