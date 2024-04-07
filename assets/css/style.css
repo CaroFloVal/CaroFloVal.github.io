@@ -87,6 +87,14 @@ h1 {
 
 }
 
+.experiencia .columna {
+ padding: 20px;
+ border: 2px solid aquamarine;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-evenly;
+}
 .experiencia-titulo {
     font-size: 25px;
     font-weight: bold;
