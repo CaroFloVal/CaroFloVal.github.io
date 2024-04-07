@@ -83,8 +83,29 @@ h1 {
 
 /*Experiencia*/
 .experiencia { 
-    padding: 40px;
+    padding: 40px 40px 60px 40px;
 
+}
+
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.badges-contenedor {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.badge {
+    margin: 5px;
+}
+.experiencia i {
+    font-size: 2.5rem;
+    color: aquamarine;
+    background-color: black;
+    padding:8px 19px;
+    border-radius: 50%;
 }
 /*adaptable (responsivo)*/
 
